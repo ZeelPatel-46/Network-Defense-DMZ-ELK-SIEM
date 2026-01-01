@@ -1,0 +1,6 @@
+sudo dpkg -i filebeat-7.17.3-amd64.deb
+sudo filebeat modules enable apache
+sudo service filebeat start
+
+
+✔ Apache logs forwarded to Logstash in real time.
