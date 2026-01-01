@@ -1,0 +1,12 @@
+docker-compose up -d
+
+
+##Services exposed:
+
+Elasticsearch → 9200
+
+Logstash → 5044
+
+Kibana → 5601
+
+✔ Kibana UI: http://localhost:5601
