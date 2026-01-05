@@ -1,0 +1,9 @@
+filebeat.modules:
+  - module: apache
+    access:
+      enabled: true
+    error:
+      enabled: true
+
+output.logstash:
+  hosts: ["localhost:5044"]
